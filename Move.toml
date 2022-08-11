@@ -1,0 +1,12 @@
+[package]
+name = "using-liquidswap"
+version = "0.0.0"
+
+[dependencies]
+Liquidswap = { git = "https://github.com/pontem-network/liquidswap.git", rev = "v0.2.2" }
+LiquidswapLP = { git = "https://github.com/pontem-network/liquidswap-lp.git", rev = "v0.4.3" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet" }
+
+[addresses]
+example = "0x1"
+
